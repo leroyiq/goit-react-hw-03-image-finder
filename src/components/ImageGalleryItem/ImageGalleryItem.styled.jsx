@@ -8,6 +8,7 @@ export const Li = styled.li`
 export const Img = styled.img`
   width: 100%;
   height: 100%;
+  object-fit: cover;
   border-radius: 10px;
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   &:hover {
